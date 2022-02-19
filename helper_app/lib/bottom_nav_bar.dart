@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import './home_screen.dart';
-import './tables.dart';
-import './profile.dart';
-import './map.dart';
+// import './home_screen.dart';
+// import './tables.dart';
+// import './profile.dart';
+// import './map.dart';
 
 class BottomNavBar extends StatefulWidget {
   @override
