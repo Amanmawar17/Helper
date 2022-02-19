@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:firebase_core/firebase_core.dart';
 import './home_screen.dart';
 
@@ -7,6 +8,11 @@ void main() async {
   await Firebase.initializeApp();
   runApp(MyApp());
 }
+=======
+import './home_screen.dart';
+
+void main() => runApp(MyApp());
+>>>>>>> 2077ed19b4f18fc46b521a43e2ce5910965fd863
 
 class MyApp extends StatelessWidget {
   @override
