@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './top_nav_bar.dart';
-import './bottom_nav_bar.dart';
+import '../widgets/drawer_app.dart';
+import '../widgets/top_nav_bar.dart';
+import '../widgets/bottom_nav_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -19,6 +20,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      drawer: DrawerApp(),
       bottomNavigationBar: BottomNavBar(),
     );
   }

@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-// import './home_screen.dart';
-// import './tables.dart';
-// import './profile.dart';
-// import './map.dart';
-=======
-import './home_screen.dart';
-import './tables.dart';
-import './profile.dart';
-import './map.dart';
->>>>>>> 2077ed19b4f18fc46b521a43e2ce5910965fd863
+import '../screens/home_screen.dart';
+import '../screens/tables.dart';
+import '../screens/profile.dart';
+import '../screens/map.dart';
 
 class BottomNavBar extends StatefulWidget {
   @override
@@ -18,20 +11,20 @@ class BottomNavBar extends StatefulWidget {
 
 int _curentIndex = 0;
 
-// final tabs = [
-//   Center(
-//     child: HomeScreen(),
-//   ),
-//   Center(
-//     child: Tables(),
-//   ),
-//   Center(
-//     child: Map(),
-//   ),
-//   Center(
-//     child: Profile(),
-//   ),
-// ];
+final screen = [
+  Center(
+    child: HomeScreen(),
+  ),
+  Center(
+    child: Tables(),
+  ),
+  Center(
+    child: Map(),
+  ),
+  Center(
+    child: Profile(),
+  ),
+];
 
 class _BottomNavBarState extends State<BottomNavBar> {
   @override

@@ -4,6 +4,7 @@ class TopNavBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      iconTheme: IconThemeData(color: Colors.indigo, size: 35),
       title: Text(
         'Helper!!',
         style: TextStyle(
@@ -12,7 +13,7 @@ class TopNavBar extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
       backgroundColor: Color.fromRGBO(227, 221, 221, 1),
-      elevation: 5,
+      elevation: 1,
     );
   }
 
